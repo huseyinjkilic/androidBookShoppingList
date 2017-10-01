@@ -20,4 +20,3 @@ Default image is small so it looks like these in detail activity.
     I didn't use rest library with authentication. It should be.
     
     I didn't find time to implement swipe and delete and add method. 
-   
