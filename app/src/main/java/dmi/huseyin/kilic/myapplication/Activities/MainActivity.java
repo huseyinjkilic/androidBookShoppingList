@@ -1,4 +1,4 @@
-package dmi.huseyin.kilic.myapplication;
+package dmi.huseyin.kilic.myapplication.Activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,10 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import java.util.ArrayList;
+
+import dmi.huseyin.kilic.myapplication.Book;
+import dmi.huseyin.kilic.myapplication.DataAdapter;
+import dmi.huseyin.kilic.myapplication.R;
 
 public class MainActivity extends AppCompatActivity {
 

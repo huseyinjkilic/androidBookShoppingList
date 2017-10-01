@@ -1,4 +1,4 @@
-package dmi.huseyin.kilic.myapplication;
+package dmi.huseyin.kilic.myapplication.Activities;
 
 import android.os.Bundle;
 import android.os.StrictMode;
@@ -10,6 +10,10 @@ import com.squareup.picasso.Picasso;
 
 import java.io.IOException;
 
+import dmi.huseyin.kilic.myapplication.ApiService;
+import dmi.huseyin.kilic.myapplication.BookDetails;
+import dmi.huseyin.kilic.myapplication.R;
+import dmi.huseyin.kilic.myapplication.RetroDriver;
 import okhttp3.OkHttpClient;
 import retrofit2.Call;
 import retrofit2.Retrofit;

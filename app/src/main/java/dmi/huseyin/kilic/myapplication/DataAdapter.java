@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import dmi.huseyin.kilic.myapplication.Activities.BookDetailsActivity;
+
 public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
     private List<Book> books;
     private Context context;
