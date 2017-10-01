@@ -1,4 +1,4 @@
-package dmi.huseyin.kilic.myapplication.CardViewFiles;
+package dmi.huseyin.kilic.myapplication.CardViewDriverClasses;
 
 import android.view.View;
 

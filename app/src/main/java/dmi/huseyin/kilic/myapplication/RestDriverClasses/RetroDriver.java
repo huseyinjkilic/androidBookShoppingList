@@ -12,15 +12,11 @@ import retrofit2.converter.gson.GsonConverterFactory;
 /**
  * Created by kilic on 1.10.2017.
  */
-
-
 public class RetroDriver {
 
     private String userName;
     private String password;
     private final String BASE_URL = "http://assignment.gae.golgek.mobi/api/";
-    private OkHttpClient okHttpClientLogin;
-    private Retrofit retrofit;
 
     private static RetroDriver instance = null;
     protected RetroDriver() {
@@ -33,19 +29,16 @@ public class RetroDriver {
     }
 
     public OkHttpClient getOkHttpClientLogin() {
-
         OkHttpClient okHttpClientLogin = new OkHttpClient().newBuilder().addInterceptor(new Interceptor() {
             @Override
             public okhttp3.Response intercept(Chain chain) throws IOException {
                 Request originalRequest = chain.request();
-
                 Request.Builder builder = originalRequest.newBuilder().header("Authorization",
                         Credentials.basic(userName, password));
                 Request newRequest = builder.build();
                 return chain.proceed(newRequest);
             }
         }).build();
-
         return okHttpClientLogin;
     }
 
@@ -62,5 +55,4 @@ public class RetroDriver {
                 .build();
         return retrofit;
     }
-
 }

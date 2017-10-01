@@ -36,10 +36,6 @@ public class BookDetails {
         this.image = image;
     }
 
-    public BookDetails() {
-
-    }
-
     public int getId() {
         return id;
     }

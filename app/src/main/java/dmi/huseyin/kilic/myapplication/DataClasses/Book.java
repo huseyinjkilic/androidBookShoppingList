@@ -33,7 +33,6 @@ public class Book implements Serializable {
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
@@ -41,7 +40,6 @@ public class Book implements Serializable {
     public String getTitle() {
         return title;
     }
-
     public void setTitle(String title) {
         this.title = title;
     }
@@ -49,7 +47,6 @@ public class Book implements Serializable {
     public Double getPrice() {
         return price;
     }
-
     public void setPrice(Double price) {
         this.price = price;
     }
@@ -57,7 +54,6 @@ public class Book implements Serializable {
     public String getLink() {
         return link;
     }
-
     public void setLink(String link) {
         this.link = link;
     }

@@ -1,4 +1,4 @@
-package dmi.huseyin.kilic.myapplication.Activities;
+package dmi.huseyin.kilic.myapplication.ActivityClasses;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -8,7 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import java.util.ArrayList;
 
 import dmi.huseyin.kilic.myapplication.DataClasses.Book;
-import dmi.huseyin.kilic.myapplication.CardViewFiles.DataAdapter;
+import dmi.huseyin.kilic.myapplication.CardViewDriverClasses.DataAdapter;
 import dmi.huseyin.kilic.myapplication.R;
 
 public class MainActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package dmi.huseyin.kilic.myapplication.Activities;
+package dmi.huseyin.kilic.myapplication.ActivityClasses;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -36,8 +36,6 @@ public class LoginActivity extends AppCompatActivity  {
         mPasswordView = (EditText) findViewById(R.id.password);
         Button mButton = (Button) findViewById(R.id.user_sign_in_button);
 
-
-
         mButton.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View view) {
 
@@ -54,13 +52,9 @@ public class LoginActivity extends AppCompatActivity  {
                             try {
                                 List<Book> bookData = response.body();
                                 ArrayList<Book> arrayListBookData = new ArrayList<>();
-
-                                //TODO: Buna daha guzel bir cozum bulunacak..
-                                for (Book books: bookData
-                                     ) {
+                                for (Book books: bookData) {
                                     arrayListBookData.add(books);
                                 }
-
                                 if(bookData.size() == 0) {
                                     Toast.makeText(getApplicationContext(), "Error with authentication", Toast.LENGTH_LONG).show();
                                 } else {
@@ -81,7 +75,4 @@ public class LoginActivity extends AppCompatActivity  {
                 }
         });
     }
-
-
 }
-

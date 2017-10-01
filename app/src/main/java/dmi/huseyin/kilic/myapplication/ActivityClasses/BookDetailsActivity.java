@@ -1,4 +1,4 @@
-package dmi.huseyin.kilic.myapplication.Activities;
+package dmi.huseyin.kilic.myapplication.ActivityClasses;
 
 import android.os.Bundle;
 import android.os.StrictMode;
@@ -32,8 +32,7 @@ public class BookDetailsActivity extends AppCompatActivity {
         final TextView bookAuthor = (TextView) findViewById(R.id.book_author);
         final TextView bookPrice = (TextView) findViewById(R.id.book_price);
 
-        if (android.os.Build.VERSION.SDK_INT > 9)
-        {
+        if (android.os.Build.VERSION.SDK_INT > 9) {
             StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
             StrictMode.setThreadPolicy(policy);
         }
@@ -62,9 +61,7 @@ public class BookDetailsActivity extends AppCompatActivity {
         if(bookDetails.getPrice() != null) bookPrice.setText(bookDetails.getPrice().toString());
         if(bookDetails.getTitle() != null) bookTitle.setText(bookDetails.getTitle());
 
-
         if(bookDetails.getId() != 200)Picasso.with(getApplicationContext()).load(bookDetails.getImage()).into(bookImage);
         else Picasso.with(getApplicationContext()).load("https://www.pyramidions.com/img/android_banner1.png").into(bookImage);
-
     }
 }

@@ -1,4 +1,4 @@
-package dmi.huseyin.kilic.myapplication.CardViewFiles;
+package dmi.huseyin.kilic.myapplication.CardViewDriverClasses;
 
 
 import android.content.Context;
@@ -12,7 +12,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import dmi.huseyin.kilic.myapplication.Activities.BookDetailsActivity;
 import dmi.huseyin.kilic.myapplication.DataClasses.Book;
 import dmi.huseyin.kilic.myapplication.R;
 
@@ -39,7 +38,7 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
         viewHolder.linearLayout.setOnClickListener(new View.OnClickListener() {
                                                        @Override
                                                        public void onClick(View v) {
-                                                           Intent intentWithBookLink = new Intent(context, BookDetailsActivity.class);
+                                                           Intent intentWithBookLink = new Intent(context, dmi.huseyin.kilic.myapplication.ActivityClasses.BookDetailsActivity.class);
                                                            intentWithBookLink.putExtra("bookLink", books.get(i).getLink());
                                                            context.startActivity(intentWithBookLink);
                                                        }
