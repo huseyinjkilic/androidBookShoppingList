@@ -1,4 +1,4 @@
-package dmi.huseyin.kilic.myapplication;
+package dmi.huseyin.kilic.myapplication.CardViewFiles;
 
 
 import android.content.Context;
@@ -14,6 +14,7 @@ import java.util.List;
 
 import dmi.huseyin.kilic.myapplication.Activities.BookDetailsActivity;
 import dmi.huseyin.kilic.myapplication.DataClasses.Book;
+import dmi.huseyin.kilic.myapplication.R;
 
 public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
     private List<Book> books;
