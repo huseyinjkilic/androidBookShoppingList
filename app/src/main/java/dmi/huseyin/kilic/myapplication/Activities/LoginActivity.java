@@ -12,10 +12,10 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-import dmi.huseyin.kilic.myapplication.ApiService;
+import dmi.huseyin.kilic.myapplication.RestDriverClasses.ApiService;
 import dmi.huseyin.kilic.myapplication.DataClasses.Book;
 import dmi.huseyin.kilic.myapplication.R;
-import dmi.huseyin.kilic.myapplication.RetroDriver;
+import dmi.huseyin.kilic.myapplication.RestDriverClasses.RetroDriver;
 import okhttp3.OkHttpClient;
 import retrofit2.Call;
 import retrofit2.Callback;

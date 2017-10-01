@@ -10,10 +10,10 @@ import com.squareup.picasso.Picasso;
 
 import java.io.IOException;
 
-import dmi.huseyin.kilic.myapplication.ApiService;
+import dmi.huseyin.kilic.myapplication.RestDriverClasses.ApiService;
 import dmi.huseyin.kilic.myapplication.DataClasses.BookDetails;
 import dmi.huseyin.kilic.myapplication.R;
-import dmi.huseyin.kilic.myapplication.RetroDriver;
+import dmi.huseyin.kilic.myapplication.RestDriverClasses.RetroDriver;
 import okhttp3.OkHttpClient;
 import retrofit2.Call;
 import retrofit2.Retrofit;

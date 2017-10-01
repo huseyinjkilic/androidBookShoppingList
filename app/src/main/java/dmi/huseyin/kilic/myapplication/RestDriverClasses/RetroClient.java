@@ -1,4 +1,4 @@
-package dmi.huseyin.kilic.myapplication;
+package dmi.huseyin.kilic.myapplication.RestDriverClasses;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

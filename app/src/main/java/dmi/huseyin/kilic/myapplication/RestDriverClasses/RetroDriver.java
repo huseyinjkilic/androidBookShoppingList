@@ -1,4 +1,4 @@
-package dmi.huseyin.kilic.myapplication;
+package dmi.huseyin.kilic.myapplication.RestDriverClasses;
 
 import java.io.IOException;
 
