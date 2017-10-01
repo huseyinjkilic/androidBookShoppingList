@@ -13,6 +13,7 @@ import android.widget.TextView;
 import java.util.List;
 
 import dmi.huseyin.kilic.myapplication.Activities.BookDetailsActivity;
+import dmi.huseyin.kilic.myapplication.DataClasses.Book;
 
 public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
     private List<Book> books;

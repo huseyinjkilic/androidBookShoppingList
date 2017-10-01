@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import dmi.huseyin.kilic.myapplication.ApiService;
-import dmi.huseyin.kilic.myapplication.Book;
+import dmi.huseyin.kilic.myapplication.DataClasses.Book;
 import dmi.huseyin.kilic.myapplication.R;
 import dmi.huseyin.kilic.myapplication.RetroDriver;
 import okhttp3.OkHttpClient;

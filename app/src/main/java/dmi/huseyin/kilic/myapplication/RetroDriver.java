@@ -14,18 +14,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 
 
-/*
-* TODO: Yapılacaklar
- * Login sırasında kullanıcı adı ve şifre buraya yollanacak.
- * Parametre olarak Book listesi geri döndürülecek.
- * Eğer hatalıysa null döndürülecek.
- *
- * Book list'ten ayrıntıya geçerkende bu class constructor'ı çağrılacak.
- * Bu class singleton yapilacak. Böylece username & password sürekli istenmeyecek.
-*
-* */
-
-
 public class RetroDriver {
 
     private String userName;

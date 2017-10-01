@@ -11,7 +11,7 @@ import com.squareup.picasso.Picasso;
 import java.io.IOException;
 
 import dmi.huseyin.kilic.myapplication.ApiService;
-import dmi.huseyin.kilic.myapplication.BookDetails;
+import dmi.huseyin.kilic.myapplication.DataClasses.BookDetails;
 import dmi.huseyin.kilic.myapplication.R;
 import dmi.huseyin.kilic.myapplication.RetroDriver;
 import okhttp3.OkHttpClient;

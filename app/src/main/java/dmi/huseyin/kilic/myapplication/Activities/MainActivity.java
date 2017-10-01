@@ -7,7 +7,7 @@ import android.support.v7.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-import dmi.huseyin.kilic.myapplication.Book;
+import dmi.huseyin.kilic.myapplication.DataClasses.Book;
 import dmi.huseyin.kilic.myapplication.DataAdapter;
 import dmi.huseyin.kilic.myapplication.R;
 
