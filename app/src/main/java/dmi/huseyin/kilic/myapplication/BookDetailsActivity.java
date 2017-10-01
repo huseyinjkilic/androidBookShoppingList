@@ -59,8 +59,8 @@ public class BookDetailsActivity extends AppCompatActivity {
         if(bookDetails.getTitle() != null) bookTitle.setText(bookDetails.getTitle());
 
 
-        if(bookDetails.getImage() == "200" )Picasso.with(getApplicationContext()).load(bookDetails.getImage()).into(bookImage);
-        else Picasso.with(getApplicationContext()).load("https://www.pyramidions.com/img/android_banner1.png");
+        if(bookDetails.getId() != 200)Picasso.with(getApplicationContext()).load(bookDetails.getImage()).into(bookImage);
+        else Picasso.with(getApplicationContext()).load("https://www.pyramidions.com/img/android_banner1.png").into(bookImage);
 
     }
 }
