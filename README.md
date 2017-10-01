@@ -16,7 +16,8 @@ Default image is small so it looks like these in detail activity.
     
     
     I couldn't find time to improve application.
-    There should be many way too improve. Strings to string.xml file rather than hard coded. Also There should be better way to authentication control. 
+    There should be many way too improve. Strings to string.xml file rather than hard coded. 
+    Also There should be better way to authentication control. 
     I didn't use rest library with authentication. It should be.
     
     I didn't find time to implement swipe and delete and add method. 
